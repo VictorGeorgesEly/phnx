@@ -1,0 +1,67 @@
+/**
+ * custom
+ * place custom style in this file
+ * add !important to the end if no effect
+ * e.g. color: #fff !important;
+ * --------------------------------------------------
+ *
+ */
+
+.site-main .section {
+    padding-top:150px;
+}
+
+.section#nav {
+    z-index:801;
+}
+
+.site-header-brand img {
+    width:120px;
+    margin: 0;
+
+}
+
+.logo-phnx {
+    width:100%;
+    max-width: 800px;
+    margin-top: -60px;
+}
+
+#countdown_dashboard {
+    font-size: 8px!important;
+    margin-top: 24px;
+    line-height: 29px!important;
+}
+
+.dash-secondary {
+    font-size:18px;
+}
+
+.dash {
+    padding:0 8px;
+}
+
+.dash .digit {
+    font-size:20px;
+}
+
+.dash_title {
+    display: block;
+    font-weight: 400;
+    line-height: 1;
+    font-size: 9px;
+}
+
+table td, table th {
+    border: white 3px solid;
+    padding: 10px 12px;
+    text-align: center;
+}
+
+table th {
+    font-size: 14px;
+}
+
+table {
+    border-collapse: collapse;
+}

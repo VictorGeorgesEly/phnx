@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<!--[if IE 9 ]><html class="ie ie9 no-js" lang="fr"><![endif]-->
+<!--[if gt IE 9 | !IE]><!-->
+<html class="no-js" lang="fr">
+<!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>PHNX 2.0 - Junior ISEP</title>
+  <meta name="description" content="PHNX 2.0 - 2 Février au SHOWCASE - LUMBERJACK / DEEPDRUSH / FAVULOUS / OLFAKT">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+  <link rel="icon" href="assets/img/favicon.ico">
+  <link rel='stylesheet' href='assets/css/bootstrap.min.css'>
+  <link rel='stylesheet' href='assets/css/vendor.css'>
+  <link rel='stylesheet' href='assets/css/theme_dark.css'> <!-- edit css file name to be `theme_light.css` or `theme_dark.css` -->
+  <link rel='stylesheet' href='assets/css/custom.css'>
+
+  <!-- Facebook Metadatas -->
+  <meta property="og:title" content="PHNX 2.0 - Junior ISEP - 2 Février au SHOWCASE" />
+  <meta property="og:image" content="http://phnx.juniorisep.com/assets/img/facebook-phnx.jpg" />
+  <meta property="og:description" content="PHNX 2.0 - 2 Février au SHOWCASE - LUMBERJACK / DEEPDRUSH / FAVULOUS / OLFAKT" />
+  <meta property="og:url" content="http://phnx.juniorisep.com/">
+  <meta property="og:type" content="website">
+
+  <!--[if lte IE 9]><!-->
+  <script src='assets/js/vendor/html5shiv.min.js'></script>
+  <!--<![endif]-->
+</head>
+<body>
+
+<div class="site">
+  <div class="site-loader _multi-circle-line">
+    <div class="site-loader-spinner"></div>
+  </div>
+
+  <div class="site-bg">
+    <div class="site-bg-img"></div>
+    <div class="site-bg-video"></div>
+    <div class="site-bg-overlay"></div>
+    <div class="site-bg-effect layer" data-depth=".30"></div> <!-- parallax data, try edit to other number :) -->
+    <canvas class="site-bg-canvas layer" data-depth=".30"></canvas> <!-- parallax data, try edit to other number :) -->
+    <div class="site-bg-border"></div>
+  </div> <!-- .site-bg -->
+
+  <div class="site-canvas">
+    <main class="site-main">
+      <header class="site-header">
+        <div class="container">
+          <div class="site-header-header">
+            <div class="site-header-brand">
+              <a href="#" data-section="#accueil">
+                <img src="assets/img/3.png" alt="" style="position: absolute">
+                <img src="assets/img/4.png" alt="" style="position: absolute">
+                <img src="assets/img/5.png">
+              </a>
+              <div id="countdown_dashboard" class="countdown">
+                <div class="dash-secondary">
+                  PHNX COUNTDOWN<br>
+                  <div class="dash days_dash">
+                    <div class="digit">0</div>
+                    <div class="digit">0</div>
+                    <span class="dash_title">Jours</span>
+                  </div>
+                  <div class="dash hours_dash">
+                    <div class="digit">0</div>
+                    <div class="digit">0</div>
+                    <span class="dash_title">Heures</span>
+                  </div>
+
+                  <div class="dash minutes_dash">
+                    <div class="digit">0</div>
+                    <div class="digit">0</div>
+                    <span class="dash_title">Minutes</span>
+                  </div>
+
+                  <div class="dash seconds_dash hidden-xs">
+                    <div class="digit">0</div>
+                    <div class="digit">0</div>
+                    <span class="dash_title">Secondes</span>
+                  </div>
+                </div>
+              </div> <!-- .countdown -->
+            </div>
+            <a class="primary-nav-toggle" href="#">
+              <i class="fa fa-navicon"></i>
+            </a>
+          </div>
+          <div class="site-header-main">
+            <nav class="primary-nav">
+              <div class="primary-menu-container">
+                <ul class="primary-menu">
+                  <li class="primary-menu-item is-active" data-section="#accueil">
+                    <a href="#" data-hover="Accueil"><span>Accueil</span></a> <!-- set `data-hover` same as the link text -->
+                  </li> <!-- add `is-active` class for the main section, set `data-section` to be the section id -->
+                  <li class="primary-menu-item" data-section="#line-up">
+                    <a href="#" data-hover="Line-up"><span>Line-up</span></a>
+                  </li>
+                  <li class="primary-menu-item" data-section="#tarifs">
+                    <a href="#" data-hover="Tarifs"><span>Tarifs</span></a>
+                  </li>
+                  <li class="primary-menu-item" data-section="#informations">
+                    <a href="#" data-hover="Informations"><span>Informations</span></a>
+                  </li>
+                  <li class="primary-menu-item" data-section="#social">
+                    <a href="#"><i class="fa fa-share-alt"></i></a>
+                  </li>
+                  <li class="primary-menu-item audio-toggle">
+                    <a href="#"><i class="fa fa-volume-up"></i></a>
+                  </li> <!-- .audio-toggle -->
+                </ul>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </header> <!-- .site-header -->
+      <div id="nav" class="section">
+        <div class="section-table">
+          <div class="section-table-cell">
+            <div class="container">
+              <div class="row">
+                <div class="col-xs-12">
+                  <div class="col-inner">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> <!-- for `> md` screen -->
+      <div id="accueil" class="section is-active">
+        <div class="section-table">
+          <div class="section-table-cell">
+            <div class="container">
+              <div class="row">
+                <div class="col-xs-12">
+                  <div class="col-inner">
+                    <p class="text-center">
+                      <img src="assets/img/logoPHNX.png" class="logo-phnx">
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="line-up" class="section">
+        <div class="section-table">
+          <div class="section-table-cell">
+            <div class="container">
+              <div class="row">
+                <div class="col-xs-12">
+                  <div class="col-inner">
+                    <div class="section-heading">
+                      <h2 class="section-title">LINE-UP</h2>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-xs-12">
+                  <div class="col-inner">
+                    <h3>Favulous</h3>
+                    <p>
+                      <iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/190643545&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
+                    </p>
+                    <h3>Lumberjack</h3>
+                    <p>
+                      <iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/261484674&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
+                    </p>
+                    <h3>DeepDrush</h3>
+                    <p>
+                      <iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/148214894&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
+                    </p>
+                    <h3>Olfakt</h3>
+                    <iframe width="100%" height="60" src="https://www.mixcloud.com/widget/iframe/?feed=https%3A%2F%2Fwww.mixcloud.com%2FOlfakt%2Finterdiction-de-stationner%2F&hide_cover=1&mini=1&light=1" frameborder="0"></iframe>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="tarifs" class="section">
+        <div class="section-table">
+          <div class="section-table-cell">
+            <div class="container">
+              <div class="row">
+                <div class="col-xs-12">
+                  <div class="col-inner">
+                    <div class="section-heading">
+                      <h2 class="section-title">Tarifs</h2>
+                      <p class="section-subtitle">Entrées, Consos & Packs</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-12">
+                  <div class="col-inner">
+                    <p>
+                      <h4>Préventes</h4>
+                        16 € à l'ISEP (NDC et NDL) - 17 € en ligne - 25 € sur place
+                    </p>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="col-inner">
+                    <p>
+                    <h4>Consommations</h4>
+                    <ul>
+                      <li>2 € le soft</li>
+                      <li>3 € la bière</li>
+                      <li>3 € le shot, 25 € le mètre</li>
+                      <li>4 € le hard</li>
+                      <li>5 € le hard + redbull</li>
+                    </ul>
+                    </p>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="col-inner">
+                    <p>
+                    <h4>Bouteilles</h4>
+                    <ul>
+                      <li>Whisky Jack Daniels 70 cL : 85,00 €</li>
+                      <li>Vodka Eristoff 70 cL : 65,00 €</li>
+                      <li>Vodka Grey Goose 70 cL : 120,00 €</li>
+                      <li>Magnum PIPER 1,5 L : 180,00 €</li>
+                      <li>Magnum GREYGOOSE 1,75 L : 280,00 €</li>
+                    </ul>
+                    </p>
+                  </div>
+                </div>
+                <div class="col-md-12">
+                  <div class="col-inner">
+                    <p>
+                    <h4>Packs</h4>
+                    <table>
+                      <thead>
+                      <tr>
+                        <th></th>
+                        <th>4 places +<br>Jack Daniels 70 cL</th>
+                        <th>4 places +<br>Grey Goose 70 cL</th>
+                        <th>4 places +<br>Magnum Piper 1,5 L</th>
+                        <th>5 places +<br>Grey Goose 1,75L</th>
+                      </tr>
+                      </thead>
+                      <tbody>
+                      <tr>
+                        <td>
+                          Du 18 au 21 Janvier <br>
+                          <strong>Limité à 15 packs</strong>
+                        </td>
+                        <td>125,00 €</td>
+                        <td>150,00 €</td>
+                        <td>210,00 €</td>
+                        <td>280,00 €</td>
+                      </tr>
+                      <tr>
+                        <td>
+                          Du 22 au 26 Janvier <br>
+                          <strong>Limité à 15 packs</strong>
+                        </td>
+                        <td>135,00 €</td>
+                        <td>165,00 €</td>
+                        <td>225,00 €</td>
+                        <td>300,00 €</td>
+                      </tr>
+                      <tr>
+                        <td>A partir du<br> 27 Janvier</td>
+                        <td>145,00 €</td>
+                        <td>175,00 €</td>
+                        <td>235,00 €</td>
+                        <td>330,00 €</td>
+                      </tr>
+                      </tbody>
+                    </table>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="informations" class="section">
+        <div class="section-table">
+          <div class="section-table-cell">
+            <div class="container">
+              <div class="row">
+                <div class="col-xs-12">
+                  <div class="col-inner">
+                    <div class="section-heading">
+                      <h2 class="section-title">Informations</h2>
+                      <p class="section-subtitle">Contact - Accès - Infos pratiques</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-xs-12 col-md-5 m-t-30-sm-max">
+                  <div class="col-inner">
+                    <div class="iconbox _left">
+                      <div class="iconbox-icon">
+                        <i class="icon-pencil"></i>
+                      </div>
+                      <div class="iconbox-heading">
+                        <h4>Junior ISEP</h4>
+                      </div>
+                      <div class="iconbox-content">
+                        <p>
+                          <a href="mailto:phnx@juniorisep.com"><u>phnx@juniorisep.com</u></a><br>
+                          <a href="http://www.juniorisep.com/" target="_blank"><u>www.juniorisep.com</u></a><br>
+                          28 rue Notre Dame des Champs<br>
+                          4<sup>ème</sup> étage
+                        </p>
+                      </div>
+                    </div> <!-- .iconbox -->
+
+                    <div class="iconbox _left">
+                      <div class="iconbox-icon">
+                        <i class="icon-map-pin"></i>
+                      </div>
+                      <div class="iconbox-heading">
+                        <h4>Showcase</h4>
+                      </div>
+                      <div class="iconbox-content">
+                        <p>
+                          <b>Pont Alexandre III</b>
+                          <a href="http://www.showcase.fr/" target="_blank"><u>www.showcase.fr</u></a><br>
+                          Port des Champs Élysées<br>
+                          75008 PARIS
+                        </p>
+                      </div>
+                    </div> <!-- .iconbox -->
+                  </div>
+                </div>
+                <div class="col-xs-12 col-md-6 col-lg-5 col-md-offset-1 col-lg-offset-2">
+                  <div class="col-inner">
+                    <form class="_outline" id="contactForm" novalidate="novalidate">
+                      <div class="row">
+                        <div class="col-sm-6">
+                          <div class="form-group required">
+                            <label class="form-label" for="contactName">Nom</label>
+                            <input class="form-control" id="contactName" type="text" name="name">
+                          </div>
+                        </div>
+                        <div class="col-sm-6">
+                          <div class="form-group required">
+                            <label class="form-label" for="contactEmail">Email</label>
+                            <input class="form-control" id="contactEmail" type="text" name="email">
+                          </div>
+                        </div>
+                      </div>
+                      <div class="form-group required">
+                        <label class="form-label" for="contactMessage">Message</label>
+                        <textarea class="form-control" id="contactMessage" rows="4" name="message"></textarea>
+                      </div>
+                      <div class="btn-wrap">
+                        <button type="submit" class="btn btn-default btn-block">Envoyer</button>
+                      </div>
+                      <div class="form-notify">Drop us a line to say hello :)</div>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="social" class="section">
+        <div class="section-table">
+          <div class="section-table-cell">
+            <div class="container">
+              <div class="row">
+                <div class="col-xs-12">
+                  <div class="col-inner">
+                    <div class="social-menu-container">
+                      <ul class="social-menu">
+                        <li class="social-item">
+                          <a href="https://www.facebook.com/events/1036245193188975/" target="_blank">
+                            <i class="fa fa-facebook-square"></i>
+                            <span>Facebook</span>
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main> <!-- .site-main -->
+  </div>
+</div>
+
+<script src="assets/js/vendor/jquery-1.11.3.min.js"></script>
+<script src='assets/js/vendor/bootstrap.min.js'></script>
+<script src='assets/js/vendor/plugin.js'></script>
+<script src='assets/js/variable.js'></script>
+<script src='assets/js/main.js'></script>
+<script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m);})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');ga('create', 'UA-89997256-1', 'auto');ga('send', 'pageview');</script>
+</body>
+</html>
